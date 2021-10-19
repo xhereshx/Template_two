@@ -1,0 +1,95 @@
+/* @import url("./slider_two.css"); */
+
+html {
+  --white: #fff;
+  --black: #000;
+  --light_cyan: #99cccc;
+}
+/* i {
+  width: 50px;
+  height: 50px;
+} */
+/* div {
+  background-color: black;
+} */
+/* .container {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0px;
+}
+html {
+  margin-top: 0px;
+}
+
+body {
+  margin-top: 0px;
+} */
+
+/* .navbar_image {
+  display: inline-block;
+}
+.navbar_text {
+  width: calc(100% - 64px);
+  float: right;
+} */
+.icon_image {
+  /* width: 64px; */
+  /* float: left; */
+}
+
+.icon_text {
+  color: var(--white);
+}
+.icon_text h1 {
+  margin: 0px 0px;
+}
+
+.icon_text p {
+  margin: 0px 0px;
+}
+.navbar {
+  position: absolute;
+  color: var(--white);
+  top: 0px;
+  right: 0px;
+}
+
+/* text pod menu */
+.mainpage_text {
+  margin-top: 7rem;
+}
+.bottom--margin {
+  margin-bottom: 3rem;
+}
+
+hr {
+  background-color: var(--white);
+}
+.mainpage_link {
+  padding: 10px 25px;
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+}
+.mainpage_link:hover {
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--light_cyan);
+}
+/* footer */
+.footer {
+  margin-top: 7rem;
+  text-align: right;
+}
+.footer_btmmargin {
+  height: 2rem;
+}
+/* pro fixaci bugu s dolním marginem */
+
+/* 576px */
+@media screen and (min-width: 48em) {
+  .mainpage_text {
+    margin-top: 2rem;
+  }
+}
+/* 768px */

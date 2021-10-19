@@ -1,0 +1,118 @@
+@import url("./slider_two.css");
+html {
+  --black: #000;
+  --white: #fff;
+  --gray: #ddd;
+  --light_cyan: #99cccc;
+  --blackopacity: rgba(0, 0, 0, 0.5);
+}
+/* .navb_big a {
+  text-align: right;
+} */
+.icon {
+  position: fixed;
+  top: 2.5rem;
+  right: 2rem;
+}
+.icon_transform {
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: skewX(-15deg);
+}
+/* pro změnu úhlu pozadí burger menu */
+.icon_image {
+  width: 64px;
+
+  transform: skewX(15deg);
+}
+/* proto abych obrázek v burger menu nebyl nahlý */
+.dropdown a:hover {
+  color: var(--light_cyan);
+}
+/* .dropdown a:any-link {
+  color: var(--black);
+} */
+button:focus,
+.dropbtn:focus {
+  outline: 1px transparent solid;
+  border: 1px transparent solid;
+}
+.inline_block {
+  display: inline-block;
+}
+/* .image--right {
+  text-align: end;
+} */
+.dropbtn {
+  background-image: url("../../img/menu.png");
+  /* background-color: var(--black); */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  /* width: 50px;
+  height: 50px; */
+  width: 64px;
+  height: 64px;
+  font-size: 2rem;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: var(--blackopacity);
+
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  width: 100px;
+  transform: translate(calc(-45px));
+
+  padding: 1rem 0rem;
+}
+.dropdown_content a {
+  background-color: var(--blackopacity);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.navb_big {
+  background-color: transparent;
+  margin-top: 1rem;
+}
+.navb_big a {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  height: 100%;
+
+  line-height: 50px;
+  color: var(--white);
+  text-decoration: none;
+}
+.navb_big a:hover {
+  /* color: var(--gray); */
+  color: var(--light_cyan);
+  text-decoration: none;
+}
+.show {
+  display: block;
+}
+div {
+  color: var(--white);
+}
+@media screen and (min-width: 36em) {
+  .navsmall_umbrella {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  /* stejný princip jako u předchozího, jeho změnan šířka divu s obrázkem a tlačítkem, protože je jinak široký*/
+  .sellpicture_content {
+  }
+  .dropdown {
+    display: none;
+  }
+}
+/* 992px */

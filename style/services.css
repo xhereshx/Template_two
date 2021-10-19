@@ -1,0 +1,13 @@
+.services_text div[class*="col-12"] img {
+  width: 160px;
+  height: 160px;
+}
+.text {
+  float: right;
+  width: calc(100% -180px);
+}
+.image {
+}
+.services_text {
+  margin-bottom: 3rem !important;
+}

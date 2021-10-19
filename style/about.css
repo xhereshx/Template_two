@@ -1,0 +1,13 @@
+.about_text {
+  line-height: 2;
+}
+.row--marbot {
+  margin-bottom: 0.7rem !important;
+}
+/* .about_footer {
+  text-align: right;
+  margin-top: 5rem;
+} */
+.row--marbot img {
+  width: 50px;
+}
